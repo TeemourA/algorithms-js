@@ -1,0 +1,25 @@
+{
+  "name": "algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "start:algorithms": "nodemon src/algorithms.js",
+    "start:ds": "nodemon src/dataStructures/stacksQues.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeemourA/algorithms-js.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeemourA/algorithms-js/issues"
+  },
+  "homepage": "https://github.com/TeemourA/algorithms-js#readme",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
